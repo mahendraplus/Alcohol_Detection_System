@@ -35,7 +35,15 @@ The Alcohol Detection System with Buzzer and Timestamp is a DIY project designed
 
 ## 🚀 Getting Started
 
-1. Set up the hardware connections following the provided circuit diagram.
+1. **Wire Connections:**
+   - Connect the MQ Alcohol Sensor:
+     - VCC to 5V on Arduino.
+     - GND to GND on Arduino.
+     - AOUT to A0 on Arduino.
+     - DOUT (not used in this project).
+   - Connect the Buzzer:
+     - Positive (longer leg) to a digital pin on Arduino (e.g., pin 8).
+     - Negative (shorter leg) to GND on Arduino.
 
 2. Upload the Arduino code to your Arduino Uno.
 
@@ -49,7 +57,7 @@ The Alcohol Detection System with Buzzer and Timestamp is a DIY project designed
 
 ## 🔗 Project Repository
 
-- [GitHub Repository](https://github.com/yourusername/your-repo)
+- [GitHub Repository](https://github.com/mahendraplus/your-repo)
 
 ## 📝 Licensing
 
@@ -61,7 +69,8 @@ Feedback and contributions to this project are welcome. If you have suggestions,
 
 ## 👨‍💻 Contributors
 
-- [@mahendraplus](https://github.com/mahendraplus)
+- [Mahendra Mali (MAX)](https://github.com/mahendraplus)
+- Instagram: [@m4u.xt](https://www.instagram.com/m4u.xt/)
 
 ## 📅 Release History
 
